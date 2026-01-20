@@ -1,0 +1,84 @@
+Slide1:
+
+Hello Everyone, I'm Lasya. Today, we the tech transformers, a team of 7 members are here 
+to showcase our progress on our Idea - signlanguage interpreter.
+
+just to revisit our Idea - "It is widely believed that around 70 million people in the world rely on sign language to communicate
+with the rest of the world. Our idea is centered around to help such people. To implement this idea, We split the work among us as shown 
+in the slide. 
+
+Slide2:
+Problem statement: The actual problem that invoked our idea is to aid people with hearing and visual impairment. Existing solutions such as
+human interpreter or text based communication might not be accessible efficient or affordable.
+The picures here depict the percentage of hearing and visual impairment. These figure show the volume people facing troubles in their day to day life.
+
+I will handover to my friend varshini to deal the solution part.
+
+Slide3:
+The proposed solution to this problem is to facilitate visually impaired and hard of hearing individuals with ML driven system.
+In this solution, the functionalities to be implemented are converting gestures in to text and display it in the output.(we did a good progress on this part)
+The second part to be dealt with, is to fetch audio output using text to speech apis.(this part is yet to be implemented)
+The below flow chart gives a high level understanding of the whole prcess involved in conversion of gestures to text/voice.
+
+Slide4:
+Moving on to opportunities and innovation of our idea, one of the major benefits to society is ...it supports hard-of-hearing individuals upto a large extent.
+Computer vision is used in our project along with ML techniques to make the job easy. Once we are ready with the rudimentary applicaiton, 
+it can be extended to support multiple devices. Since it uses advanced ML techniques, accuracy is ascertained.
+
+Now, I will handover to my friend Darsani to cover features of our solution.
+
+Slide5:
+Key functionalities of our application include "Having a provision for language option. That is user can choose their own language for gesture to text conversion.
+We have developed frontend(using HTML/CSS) to deal with it. Default language option is English. We will extend it to other languages in the subsequent phases.
+Our application develops a model to collect different gestures and preserves them for training. Training module helps to identify various gestures.
+
+Benefits of the application includes - cost effectiveness, extendability(to multiple platforms) and acts as a medium between impaired people vs the rest of the world.
+   
+This is all about functionalities and benefits. I will give handover to Lasya again to proceed further.
+
+Slide6:
+
+I will quickly glance through prgress that we made so far. We are ready with a POC which works for few gestures. We developed a frontend to cover minimal requirements.
+As you can see from the pictures- first the application prompts for the language. Once the language option is made, when we click on start button, the real application kicks off.
+Then we can make different gestures and get the text output as depicted in the diagrams. We are yet to work on the audio output for these gestures. We will cover it in the subsequent phases.
+
+
+Slide7: 
+Here is the high level flow diagram of our applicaiton. 
+We have leveraged, Flask framework to act as a bridge between the frontend(html/CSS) and the backend application(python).
+When we run the flask application, it kicksoff the frontend part to acquire the language option, and when we press on start from the frontend, flask initiates Signlanguage interpreter 
+application.
+Signlanguage interpreter has two core components Keypoint classifier and history classifier. They are responsible for model creation and training respectively. 
+Once the training part is done, application can identify those gestures indefinitely.
+
+If you wish, I can quickly run through the application to show the demo. First we need to open the flask applicatin and run it using the command prompt or pycharm. 
+Then we need to choose the language option and start the application through UI. Now, you can see the text corresponding to each gesture that we make over the video.
+
+This all about our progress. Now, I will move on to the next slide.
+
+The tech stack that we used to implement this application is  HTML, CSS for the frontend. Python for the backend.
+From the framework standpoint, we used flask. Few of the important packages that we used are Tensorflow - for ML model creation and training. OpenCV for capturing images.
+Mediapipe for processing image/video files. Numpy for huge data processing. 
+Pycharm and Jupiter notebook are the tools that we leveraged.
+
+I will move on to the last slide to testify our Development journey so far..
+We put on a great effort right from identifying the rudimentary things involved to initiate the application to come up with a working model.
+We have made considerable progress on front-end as well as to create the flask application. We took lot of references to come up with the backend application which can interpret 
+our gestures. We truly believe that we have got a good gist of how to implment an idea from scratch. Of course, there are many areas yet to be covered as described in the last part
+of the slide. However, we believe we can surpass them too to come up with our final product. Thank a lot for giving us this opportunity.
+  
+
+
+
+
+
+
+
+
+
+
+
+Our project is on signlanguage interpreter and we came up with a proof of concept to implement our idea.
+Before we showcase our implementation, we will just revisit problem statement and the proposed solution.
+
+With no further delay, I will just leap on to the problem statement. 

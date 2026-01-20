@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SIGN LANG INTERPRETER</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #8AB2A6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 200px;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-top: 1px;
+        }
+        h3 {
+            color: #333;
+            text-align: center;
+            margin-top: 1px;
+        }
+<!--        select {-->
+<!--            color: #333;-->
+<!--            text-align: center;-->
+<!--            margin-top: 50px;-->
+<!--        }-->
+        select {
+            display: block;
+            width: 300px;
+            margin: 30px auto;
+            padding: 10px 20px;
+            background-color: #DDA853;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        input {
+            display: block;
+            width: 300px;
+            margin: 30px auto;
+            padding: 10px 20px;
+            background-color: #3E3F5B;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+        img {
+        left: 43%;
+        position : absolute;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: middle;
+        }
+    </style>
+</head>
+<body>
+    <img src="SLILogo.jpeg" alt=" Image path">
+    <br>
+    <h1>SIGN LANGUAGE INTERPRETER</h1>
+    <br>
+
+    <h2>Any preference for language?</h2>
+    <h3>(Default:English)</h3>
+    <br>
+    <form method="POST">
+        <select name="Languages" id="Languages">
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Telugu">Telugu</option>
+        </select>
+        <input type="submit" value="Submit" required>
+
+    </form>
+</body>
+</html>
